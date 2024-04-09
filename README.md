@@ -14,6 +14,23 @@ This project demonstrates building a secure ASP.NET Core Web API with JWT (JSON 
 
 6- Identity Framework Integration: Integrates with Identity Framework for user authentication and authorization, enabling role-based access control.
 
+# Technologies Used:
+1-ASP.NET Core.
+
+2-Entity Framework Core.
+
+3-MSSQL.
+
+4-JWT Token Authentication.
+
+5-Dependency Injection.
+
+6-Repository Pattern.
+
+7-LINQ.
+
+8-Identity Framework.
+
 # How It Works
 1- User Registration: Users can register with the API by providing their username, email, and password. Upon successful registration, the user is added to the database, and a JWT token is generated for authentication.
 
