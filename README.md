@@ -2,12 +2,18 @@
 This project demonstrates building a secure ASP.NET Core Web API with JWT (JSON Web Token) authentication. It includes features such as user registration, login, and role-based authorization. The API utilizes a code-first approach, integrates with a MSSQL database using Entity Framework Core, and follows modern development practices for maintainability and scalability.
 
 # Features
-1- JWT Authentication: Implements token-based authentication using JWT to secure user access to the API endpoints.
+1- JWT Authentication: Implements token-based authentication using JWT to secure user access to the API endpoints. 
+
 2- User Registration and Login: Provides endpoints for user registration and login, with password hashing for security.
+
 3- Role-Based Authorization: Restricts access to certain actions based on user roles. Only admin users have authorization to perform administrative actions.
+
 4- Repository Pattern: Utilizes the repository pattern to separate data access logic, improving code organization and testability.
+
 5- Dependency Injection: Leverages ASP.NET Core's built-in dependency injection for loosely coupled components and better code maintainability.
+
 6- Identity Framework Integration: Integrates with Identity Framework for user authentication and authorization, enabling role-based access control.
+
 # How It Works
 1- User Registration: Users can register with the API by providing their username, email, and password. Upon successful registration, the user is added to the database, and a JWT token is generated for authentication.
 
